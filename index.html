@@ -3,7 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="style.css">
+                <script>
+                    // @see https://docs.headwayapp.co/widget for more configuration options.
+                    var HW_config = {
+                      selector: ".changelog", // CSS selector where to inject the badge
+                      account:  "Jl3X27",
+                      translations: {
+    title: "ZombsNatics Changelog"
+
+    }
+                    }
+                  </script>
+                  <script async src="https://cdn.headwayapp.co/widget.js"></script>
 					<title>ZombsNatics Wiki</title>
 				</head>
 				<body>
@@ -11,7 +23,11 @@
                         <section class="glass">
                     <h1 class="big-text">ZombsNatics Wiki</h1>
                         </br>
-                    <p style="text-align: center;">Find the stats of your favourite in-game items!</p>
+                        <p class="changelog" style="display: block; vertical-align: middle; text-align: center;  ">Changelog</p>
+
+                    </br>
+                </br>
+                    <h3 style="text-align: center;">Find the stats of your favourite in-game items!</h3>
                     </br>
                     </br>
 					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in the name of an in-game item" style="font-family: 'Poppins', sans-serif;">

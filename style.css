@@ -78,6 +78,10 @@ img {
       box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
       grid-gap: 1rem;
 }
+#HW_badge_cont {
+    display: inline-block !important;
+    vertical-align: middle;
+  }
 
 
 #myInput {
