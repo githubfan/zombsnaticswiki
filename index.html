@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link rel="stylesheet" href="style.css">
+					<title>ZombsNatics Wiki</title>
+				</head>
+				<body>
+                    <main>
+                        <section class="glass">
+                    <h1 class="big-text">ZombsNatics Wiki</h1>
+                        </br>
+                    <p style="text-align: center;">Find the stats of your favourite in-game items!</p>
+                    </br>
+                    </br>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in the name of an in-game item" style="font-family: 'Poppins', sans-serif;">
+						<div class="allitems">
+                            <ul id="myUL">
+                     
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Silenced Assault Rifle</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706601626282229800/SilencedARWeapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 14</p>
+                                            <p class="stats">Reload speed: 1 second</p>
+                                            <p class="stats">Accuracy: Low</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">AR-15</a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity"> <span class="uncommon-rarity">Uncommon,</span> <span class="rare-rarity">Rare,</span> <span class="epic-rarity">Epic,</span> Legendary</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706601736785231942/AR-15.png" alt="" width="50px">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 10.5 - 12</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                            <p class="stats">Accuracy: Low</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">M4</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="uncommon-rarity">Uncommon,</span> <span class="rare-rarity">Rare,</span> <span class="epic-rarity">Epic,</span> <span class="legendary-rarity">Legendary,</span> Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706602199660232734/M4A1Weapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Avgeage Damage: 12-16</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                            <p class="stats">Accurary: Medium</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">AK </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="uncommon-rarity">Uncommon,</span> <span class="rare-rarity">Rare,</span> <span class="epic-rarity">Epic,</span> <span class="legendary-rarity">Legendary,</span> Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706602052742021260/AK-1.png" alt="" width="50px">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 16-20</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                            <p class="stats">Accuracy: High</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Assault SCAR</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706603366284787882/UpgradedScarWeapon-1.png" alt="" width="50px">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 13-20</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                            <p class="stats">Accuracy: Medium</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">SCAR</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="uncommon-rarity">Uncommon,</span> <span class="rare-rarity">Rare,</span> <span class="epic-rarity">Epic,</span> <span class="legendary-rarity">Legendary,</span> Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706603300392271963/ScarWeapon_20833-2.png" alt="" width="50px">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 15-19</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                            <p class="stats">Accuracy: Medium</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Tommy Gun</a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary, <span class="epic-rarity rarity">Epic,</span> <span class="rare-rarity rare">Rare</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/733878366096326717/746013484956778626/TommyWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 12.5-14.5</p>
+                                            <p class="stats">Accuracy Rating: High</p>
+                                            <p class="stats">Reload Speed: 1.5 seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">MG36</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706606182101549066/MG36Weapon-1.png" alt="" width="50px">
+                                        <div class="stats_container">
+                                            <p class="stats">Average Damage: 17</p>
+                                            <p class="stats">Accuracy Rating: High </p>
+                                            <p class="stats">Reload Speed: 1 Second </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                               
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">XM8</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic, <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/733878366096326717/746013516640813076/VectorWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: ~12</p>
+                                            <p class="stats">Accuracy Rating: Medium</p>
+                                            <p class="stats">Reload Speed: 1 seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Uzi</a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706509288230879373/UziWeapon_21942.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 11-15</p>
+                                            <p class="stats">Accuracy Rating: Medium</p>
+                                            <p class="stats">Reload Speed: 1 seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">MP5</a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity rarity">Uncommon,</span> <span class="rare-rarity rarity">Rare,</span> <span class="epic-rarity rarity">Epic,</span> <span class="legendary-rarity rarity">Legendary</span> </h3>
+                                        <img src="https://media.discordapp.net/attachments/751774103341367367/804728599503568906/MP5.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 11-14</p>
+                                            <p class="stats">Accuracy Rating: Low</p>
+                                            <p class="stats">Reload Speed: 1 second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Silenced SMG</a>
+                                        </br>
+                                        <h3 class="rare-rarity rarity">Rare, <span class="epic-rarity">Epic</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706509309806247936/E242107C-50D5-4B92-A54B-BD68E1EEFFBE.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 15-16</p>
+                                            <p class="stats">Accuracy Rating: Low</p>
+                                            <p class="stats">Reload Speed: 1 second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">UMP</a>
+                                        </br>
+                                        <h3 class="epic-rarity rarity">Epic, <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/623933625607651376/UMPWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 16-17</p>
+                                            <p class="stats">Accuracy Rating: High</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">P90</a>
+                                        </br>
+                                        <h3 class="epic-rarity rarity">Epic, <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706509151098110002/P90-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 12-13</p>
+                                            <p class="stats">Accuracy Rating: Very Low</p>
+                                            <p class="stats">Reload speed: 1.5 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Vector </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706509664518537296/1568327190831-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 16</p>
+                                            <p class="stats">Accuracy: High</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+                
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Pump Shotgun</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="common-rarity">Common,</span> <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary,</span> Mythic  </h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706620780984795286/PumpShotgunWeapon-1-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Bullet Count: 15</p>
+                                            <p class="stats">Damage Per Bullet: 5-8.1</p>
+                                            <p class="stats">Reload speed: 1 Second (x6)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Tactical Shotgun</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="common-rarity">Common,</span> <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary,</span> Mythic  </h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706620845887455282/TacticalShotgunWeapon_21639-1-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Bullet Count: 5</p>
+                                            <p class="stats">Damage Per Bullet: 8.8-13.8</p>
+                                            <p class="stats">Reload speed: 0.5 Seconds (x6)</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Assault Shotgun</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="common-rarity">Common,</span> <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary,</span> Mythic  </h3>
+                                        <img src="https://media.discordapp.net/attachments/623933432099110932/706620809984344174/AssaultShotgunWeapon-1-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Bullet Count: 10</p>
+                                            <p class="stats">Damage Per Bullet: 5-7.5</p>
+                                            <p class="stats">Reload speed: 0.7 Seconds (x8)</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Dragunov </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622766738336907265/DragunovWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 15, 77</p>
+                                            <p class="stats">Range: 28 Tiles</p>
+                                            <p class="stats">Reload speed: 1.4 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Bolt-Action Sniper </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="common-rarity">Common,</span> <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary,</span> Mythic  </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622766409361129473/BoltActionSniperWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 11-16, 58-78</p>
+                                            <p class="stats">Range: 27.5 Tiles</p>
+                                            <p class="stats">Reload speed: 1.2 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">VSS </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity">Uncommon</span> </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622765479026753556/VSSWeapon_20535.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 11-12</p>
+                                            <p class="stats">Range: 22 Tiles</p>
+                                            <p class="stats">Reload speed: 1.2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">VSS </a>
+                                        </br>
+                                        <h3 class="rare-rarity rarity">Rare, <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary, </span> <span class="mythic">Mythic</span> </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622765479026753556/VSSWeapon_20535.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 12, 13-16</p>
+                                            <p class="stats">Range: 22 Tiles</p>
+                                            <p class="stats">Reload speed: 1.2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Semi-Auto Sniper </a>
+                                        </br>
+                                        <h3 class="epic-rarity rarity">Epic, <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622766227160432642/SemiAutoSniperWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 25, 50 or 25, 54</p>
+                                            <p class="stats">Range: 30 Tiles</p>
+                                            <p class="stats">Reload speed: 1.2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">AWP</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622766915026288680/AWPSniperWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 16, 80</p>
+                                            <p class="stats">Range: 32 Tiles</p>
+                                            <p class="stats">Reload speed: 1.2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Crossbow </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622764431214116875/CrossbowWeapon_21386.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 8-150</p>
+                                            <p class="stats">Range: 32</p>
+                                            <p class="stats">Reload speed: 2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">XBow</a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity">Mythic</h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/622764532313358336/XBowWeapon_20966.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 6.5-100</p>
+                                            <p class="stats">Range: 32</p>
+                                            <p class="stats">Reload speed: 1.6 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Glock </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity">Uncommon, </span> <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706513472053182494/GlockWeapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 9-13</p>
+                                            <p class="stats">Accuracy: Medium</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Dual Berettas </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706513547500453959/DualBerettaWeapon_21493-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 8-12</p>
+                                            <p class="stats">Accuracy: High</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">P2000 </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common, <span class="uncommon-rarity">Uncommon, </span> <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706513512310112266/PistolWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 9-13</p>
+                                            <p class="stats">Accuracy: High</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Deagle </a>
+                                        </br>
+                                        <h3 class="rare-rarity rarity">Rare, <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary</span></h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706513435365474314/DeagleWeapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 40-42</p>
+                                            <p class="stats">Accuracy: Extreme</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Silenced Pistol </a>
+                                        </br>
+                                        <h3 class="rare-rarity rarity">Rare, <span class="epic-rarity">Epic</span> </h3>
+                                        <img src="https://media.discordapp.net/attachments/623886392682086411/706513581033914428/image0-53.png" alt="" style="width: 158px; height: 71px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 14-15</p>
+                                            <p class="stats">Accuracy: High</p>
+                                            <p class="stats">Reload speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Rocket Launcher </a>
+                                        </br>
+                                        <h3 class="mythic-rarity rarity"> <span class="common-rarity">Common,</span> <span class="uncommon-rarity">Uncommon, </span> <span class="rare-rarity">Rare, </span> <span class="epic-rarity">Epic, </span> <span class="legendary-rarity">Legendary,</span> Mythic  </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706514484318961684/RPGWeapon_21201-1.png" alt="" >
+                                        <div class="stats_container">
+                                            <p class="stats">Direct Damage: 92-94.5</p>
+                                            <p class="stats">Splash Damage: 90</p>
+                                            <p class="stats">Range: 45 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Frag Grenade </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763724671025183/FragGrenadeWeapon_20295.png" alt="" >
+                                        <div class="stats_container">
+                                            <p class="stats">Direct Damage: N/A</p>
+                                            <p class="stats">Splash Damage: 90</p>
+                                            <p class="stats">Range: 0-13 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Smoke Grenade </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/623935574515908633/SmokeGrenadeWeapon.png" alt="" style="width: 165px; height: 141px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage Per Projectile: N/A</p>
+                                            <p class="stats">Total Damage: N/A</p>
+                                            <p class="stats">Range: 0-13 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Shuriken </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763662322565140/ShurikenWeapon_20152.png" alt="" >
+                                        <div class="stats_container">
+                                            <p class="stats">Damage Per Projectile: 20 (x5)</p>
+                                            <p class="stats">Total Damage: 100</p>
+                                            <p class="stats">Range: 22-24 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Cactus Bomb </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763474140921857/ShrapnelGrenadeWeapon.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage Per Projectile: 10 (x20)</p>
+                                            <p class="stats">Total Damage: 200</p>
+                                            <p class="stats">Range: 0-13 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Gassy Grenade </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763600859103232/GasGrenadeWeapon.png" alt="" style="width: 91px; height: 126px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage Per Tick: 5</p>
+                                            <p class="stats">Total Damage: 100</p>
+                                            <p class="stats">Range: 0-18 Tiles</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Reverse Impulse </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763930250379295/ReverseImpulseGrenadeWeapon_21335.png" alt="" style="width: 84px; height: 85px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Range: 0-13</p>
+                                            <p class="stats">Radius: 8</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Impulse Grenade </a>
+                                        </br>
+                                        <h3 class="common-rarity rarity">Common </h3>
+                                        <img src="https://media.discordapp.net/attachments/622763021286244383/622763821030834196/ImpulseGrenadeWeapon.png" alt="" style="width: 84px; height: 85px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Range: 0-13</p>
+                                            <p class="stats">Radius: 7</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Goo Gun </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706514674862260244/GooGunWeapon-1.png" alt="" >
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 6</p>
+                                            <p class="stats">Total Damage: 67</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Rubber Gun </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706514579621937213/RubberWeapon-1.png" alt="" >
+                                        <div class="stats_container">
+                                            <p class="stats">Base Damage: 8</p>
+                                            <p class="stats">Maximum Bounces: 5</p>
+                                            <p class="stats">Reload Speed: 2 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Flamethrower </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706562991226748948/FlamethrowerWeapon.png" alt=""  style="width: 105px; height: 122px;">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 11</p>
+                                            <p class="stats">Total Damage: 31</p>
+                                            <p class="stats">Reload Speed: 1 Second</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Grenade Launcher </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706514517521334309/GrenadeLauncherWeapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 25</p>
+                                            <p class="stats">Range: 18 Tiles</p>
+                                            <p class="stats">Reload Speed: 0.7 Seconds (x8)</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                
+                                <li class="item">
+                                    <div class="border">
+                                        <a class="item-text">Minigun </a>
+                                        </br>
+                                        <h3 class="legendary-rarity rarity">Legendary </h3>
+                                        <img src="https://media.discordapp.net/attachments/622762930961907713/706514517521334309/GrenadeLauncherWeapon-1.png" alt="">
+                                        <div class="stats_container">
+                                            <p class="stats">Damage: 10</p>
+                                            <p class="stats">Range: 21 Tiles</p>
+                                            <p class="stats">Reload Speed: 3 Seconds</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="item" style="background: none; border-radius: none; border: none; box-shadow: none;">
+                                   
+                                </li>
+
+
+
+
+
+
+                            </ul>
+
+                            
+                        </div>
+                    </section>
+                    </main>
+		<script>
+    
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+    
+										</script>
+									</body>
+								</html>

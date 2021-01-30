@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    margin: 0;
+    }
+    
+    .glass {
+        background: white;
+      min-width: 100%;
+      min-height:100vh;
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3)
+        );
+        z-index: 2;
+        backdrop-filter: blur(2rem);
+      }
+
+      
+
+ul { 
+    list-style: none;
+}
+
+p, h3 {
+    padding: 0px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-text {
+    font-size: 1.55em;
+    text-align: center;
+}
+
+img {
+    width: 111px;
+    height: 110px;
+}
+
+.item {
+    float:left;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5em;
+    background: linear-gradient(
+        to left top,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.5)
+      );
+      border-radius: 1rem;
+      margin: 2rem 0rem;
+      padding: 2rem;
+    
+      box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+      grid-gap: 1rem;
+}
+
+
+#myInput {
+    background-image: url('https://w3schools.com/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.allitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+
+#myUL {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.stats_container {
+    margin-top: 1.2em;
+    text-align: left;
+    opacity: 0.95
+}
+
+.stats {
+    margin-bottom: 0.6em;
+}
+
+.damage-rate {
+    margin-top: 0.95em
+}
+
+.border {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-rarity {
+    color: gray;
+    font-size: 1.03em;
+    margin-bottom: 1em;
+}
+
+.uncommon-rarity {
+    color: green;
+    font-size: 1.03em;
+    margin-bottom: 1em;
+}
+
+.rarity {
+    letter-spacing: 0.09em;
+    font-size: 1.03em;
+    margin-bottom: 1em;
+}
+
+.rare-rarity {
+    color: blue;
+}
+
+.epic-rarity {
+    color: purple;
+}
+
+.legendary-rarity {
+    color: #eac500;
+}
+
+.mythic-rarity {
+    color: red;
+}
+
+
+
+.big-text {
+    text-align: center;
+    font-size: 40px;
+}
+
